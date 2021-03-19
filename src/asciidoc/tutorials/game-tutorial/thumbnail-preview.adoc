@@ -1,5 +1,5 @@
-= Thumbnail Preview
-:page-slug: thumbnail-preview
+= Thumbnail preview
+:page-slug: game-tutorial-thumbnail-preview
 :page-description: Modifying the thumbnail preview when the game is shared on socials
 :figure-caption!:
 
@@ -93,4 +93,4 @@ image:https://i.imgur.com/rsElqqp.png[alt="screenshot player",width=256,height=2
 
 You've reached the end of this tutorial!
 
-In the <<finishing-up#,final section>>, we talk about Publishing your game and some additional suggestions going forward.
+In the <<game-tutorial-finishing-up#,final section>>, we talk about Publishing your game and some additional suggestions going forward.

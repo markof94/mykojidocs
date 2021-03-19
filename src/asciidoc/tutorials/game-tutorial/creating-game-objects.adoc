@@ -1,5 +1,5 @@
 = Creating game objects
-:page-slug: creating-game-objects
+:page-slug: game-tutorial-creating-game-objects
 :page-description: Creating game objects
 :figure-caption!:
 
@@ -73,7 +73,7 @@ Here, we:
 
 If we take a look at the game preview now and click on the Play button, we should see our `Player` on the bottom of the screen.
 
-image:https://i.imgur.com/jynK73v.png[alt="screenshot player",width=256,height=256]
+image:https://i.imgur.com/jynK73v.png[]
 
 Awesome!
 
@@ -161,7 +161,7 @@ With `keepInsideScreen()`, we're simply constraining the player's `x` coordinate
 
 Then we check if we're touching outside of the player, in which case we're setting `goalRotation` slightly to that side.
 
-image:https://i.imgur.com/ELLEfka.gif[alt="screenshot player",width=160,height=160]
+image:https://i.imgur.com/ELLEfka.gif[]
 
 Looking good so far!
 
@@ -282,10 +282,10 @@ Let's break down that spawn function:
 
 If you start the game now, you should see a bunch of donuts appearing every `1.5` to `2` seconds and falling to the bottom.
 
-image:https://i.imgur.com/mtzJFG2.gif[alt="screenshot player",width=160,height=160]
+image:https://i.imgur.com/mtzJFG2.gif[]
 
 == Wrapping up
 
 Now that we've created the `Player` and `Collectible` objects and spawned them, we need to have them interact.
 
-In the <<scoring-and-losing#,next section>>, we'll check for some collision between them in order to add some score, and also have the player lose a life in case a Collectible falls to the bottom without getting caught.
+In the <<game-tutorial-scoring-and-losing#,next section>>, we'll check for some collision between them in order to add some score, and also have the player lose a life in case a Collectible falls to the bottom without getting caught.

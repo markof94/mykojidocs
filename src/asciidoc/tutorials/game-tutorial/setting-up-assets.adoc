@@ -1,5 +1,5 @@
 = Setting up assets
-:page-slug: setting-up-assets
+:page-slug: game-tutorial-setting-up-assets
 :page-description: Setting up settings and loading assets for our game
 :figure-caption!:
 
@@ -113,4 +113,4 @@ Change it to something like:
 
 We have now set up some starting settings and loaded our images and sounds into the game.
 
-In the <<creating-game-objects#,next section>>, we'll add the `Player` and `Collectible` classes.
+In the <<game-tutorial-creating-game-objects#,next section>>, we'll add the `Player` and `Collectible` classes.

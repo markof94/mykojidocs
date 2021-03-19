@@ -1,5 +1,5 @@
-= Finishing Up
-:page-slug: finishing-up
+= Finishing up
+:page-slug: game-tutorial-finishing-up
 :page-description: Finishing up
 :figure-caption!:
 
@@ -30,4 +30,8 @@ Go ahead and share your new game everywhere, let the world know about it!
 
 You can also post your new game to our https://discord.gg/kMkjJQ6Phb[Discord Server], along with any suggestions and thoughts on how you think we can make this tutorial even better!
 
-You can find the finished game created by following this tutorial https://withkoji.com/~Svarog1389/ekpy[here].
+Here's the finished game created using this tutorial:
+
++++
+<iframe src="https://withkoji.com/~Svarog1389/ekpy" width="400" height="600"> </iframe>
++++

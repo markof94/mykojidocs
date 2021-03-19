@@ -1,5 +1,5 @@
 = Remix
-:page-slug: remix
+:page-slug: game-tutorial-remix
 :page-description: Modifying the Remix menu
 :figure-caption!:
 
@@ -189,4 +189,4 @@ image:https://i.imgur.com/F5BamYt.png[alt="screenshot player",width=256,height=2
 
 That's our `Remix` mode finished! We've just added the ability for users to change the `Collectible` image!
 
-In the <<thumbnail-preview#,next section>>, we will customize our thumbnail preview.
+In the <<game-tutorial-thumbnail-preview#,next section>>, we will customize our thumbnail preview.

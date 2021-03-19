@@ -1,5 +1,5 @@
-= Intro
-:page-slug: intro
+= Overview
+:page-slug: game-tutorial-intro
 :page-description: Tutorial for creating a remixable Koji game
 :figure-caption!:
 
@@ -9,7 +9,7 @@ This tutorial assumes you've already gone through the https://developer.withkoji
 
 If you get stuck at any point, feel free to ask for help in our https://discord.gg/kMkjJQ6Phb[Discord Server], or e-mail me at *marko@withkoji.com*
 
-== About the Starting Template
+== About the starting template
 
 We are using https://withkoji.com/~Svarog1389/game-template-1[Game Template] as our starting point because it was made specifically for these types of hyper-casual games, and has a lot of stuff handled for us which saves us quite a bit of time, such as:
 
@@ -21,7 +21,7 @@ We are using https://withkoji.com/~Svarog1389/game-template-1[Game Template] as 
 
 Check out the template https://withkoji.com/~Svarog1389/game-template-1/details/code#README.md[README] for more information!
 
-== Game Overview
+== Game overview
 
 Falling Objects is a simple game where the player tries to collect as many falling objects as they can without them falling off the screen.
 
@@ -29,7 +29,7 @@ Player loses a life if an object falls down, and the game is over when there are
 
 Player moves the character horizontally on the bottom by touching or clicking anywhere on the screen.
 
-== Forking the Game Template
+== Forking the game template
 
 Let's get started by cloning the https://withkoji.com/~Svarog1389/game-template-1[Game Template]. You can do that by clicking on the *Koji logo* on the upper right corner, then *Advanced*, then find the *Fork* button.
 
@@ -38,31 +38,24 @@ Koji web editor is recommended for this tutorial, but you are free to http://dev
 
 == Sections
 
-<<setting-up-assets#>>  ::
+<<game-tutorial-setting-up-assets#>>  ::
 +
 [.init-cap]
-include::setting-up-assets.adoc[tag=description]
-<<creating-game-objects#>>  ::
+<<game-tutorial-creating-game-objects#>>  ::
 +
 [.init-cap]
-include::creating-game-objects.adoc[tag=description]
-<<scoring-and-losing#>>  ::
+<<game-tutorial-scoring-and-losing#>>  ::
 +
 [.init-cap]
-include::scoring-and-losing.adoc[tag=description]
-<<managing-difficulty#>>  ::
+<<game-tutorial-managing-difficulty#>>  ::
 +
 [.init-cap]
-include::managing-difficulty.adoc[tag=description]
-<<remix#>>  ::
+<<game-tutorial-remix#>>  ::
 +
 [.init-cap]
-include::remix.adoc[tag=description]
-<<thumbnail-preview#>>  ::
+<<game-tutorial-thumbnail-preview#>>  ::
 +
 [.init-cap]
-include::thumbnail-preview.adoc[tag=description]
-<<finishing-up#>>  ::
+<<game-tutorial-finishing-up#>>  ::
 +
 [.init-cap]
-include::finishing-up.adoc[tag=description]

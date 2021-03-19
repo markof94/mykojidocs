@@ -1,5 +1,5 @@
 = Scoring and losing
-:page-slug: scoring-and-losing
+:page-slug: game-tutorial-scoring-and-losing
 :page-description: Adding collision checks and lose conditions
 :figure-caption!:
 
@@ -9,7 +9,7 @@ During this section, we will:
 - Add simple animations to make the game more fun
 - Check if a `Collectible` has been missed and have the player lose a life
 
-== Collision Checking
+== Collision checking
 
 To check for collisions between Player and Collectibles, we'll modify `frontend/src/Components/Game/Entities/Player.js` again.
 
@@ -214,11 +214,11 @@ Then we modify the scale again, but this time we're using the `easeOutElastic` f
 
 `pulse()` function just resets the `animTimer` to `0`, which restarts the animation.
 
-image:https://i.imgur.com/EcVO5ZU.gif[alt="screenshot player",width=160,height=160]
+image:https://i.imgur.com/EcVO5ZU.gif[alt="screenshot player"]
 
 Now it's looking better!
 
-== Checking for Missed Collectibles
+== Checking for missed collectibles
 
 We need a way to lose the game somehow, too!
 
@@ -264,7 +264,7 @@ First, we check the Collectible's `pos.y` coordinate, and if it's higher than th
 * Shake the camera a bit to amplify that negative effect
 * Set the `shouldBeRemoved` flag to `true`, to make sure our object will be deleted from memory in the next frame.
 
-image:https://i.imgur.com/ptLizkT.gif[alt="screenshot player",width=160,height=160]
+image:https://i.imgur.com/ptLizkT.gif[alt="screenshot player"]
 
 [NOTE]
 Deleting unused objects from memory is an especially important step in every game in order to prevent memory leaks from prolonged gameplay sessions which can result in performance slowdown and eventually a crash
@@ -273,4 +273,4 @@ Deleting unused objects from memory is an especially important step in every gam
 
 At this point, our game is playable!
 
-In the <<managing-difficulty#,next section>>, we'll add some difficulty management and have the game progressively get harder.
+In the <<game-tutorial-managing-difficulty#,next section>>, we'll add some difficulty management and have the game progressively get harder.
